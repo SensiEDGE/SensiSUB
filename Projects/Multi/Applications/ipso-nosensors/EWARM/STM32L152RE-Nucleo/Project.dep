@@ -1,0 +1,2989 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>454408976</fileChecksum>
+  <configuration>
+    <name>STM32L152RE_Nucleo</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dcmi_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma2d.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dcmi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Calibration.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Aes.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Commands.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Csma.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_DirectRF.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_General.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Irq.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_LinearFifo.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Management.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_PktBasic.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_PktCommon.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_PktMbus.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_PktStack.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Qi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Radio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Types.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\STM32L1xx_Nucleo\stm32l1xx_nucleo.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\X-NUCLEO-IDS01Ax\Src\radio_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\X-NUCLEO-IDS01Ax\Src\radio_shield_config.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\X-NUCLEO-IDS01Ax\Src\radio_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L1xx\Source\Templates\system_stm32l1xx.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_can.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cec.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_crc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cryp.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cryp_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dac.c</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Gpio.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-packetqueue.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_DirectRF.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\cube_hal_l1.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_it.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_msp.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\er-coap-engine.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\er-coap-block1.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\er-coap-observe.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\er-coap-transactions.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\er-coap-res-well-known-core.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\er-coap.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ipso-button.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\er-coap-separate.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rest-engine.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ipso-leds-control.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ipso-digital-output.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ipso-objects.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\lwm2m-device.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\lwm2m-engine.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\lwm2m-json.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\lwm2m-object.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\lwm2m-plain-text.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\lwm2m-security.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\lwm2m-server.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\oma-tlv-reader.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\oma-tlv-writer.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\leds.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\oma-tlv.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\nullradio.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\aes-128.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\assert.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ccm-star.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\crc16.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\gcr.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ifft.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\list.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\me.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\memb.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\me_tabs.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\mmem.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\petsciiconv.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\print-stats.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\random.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ringbuf.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ringbufindex.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\sensors.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\settings.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\trickle-timer.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\dhcpc.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ip64-addr.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\psock.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\resolv.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\simple-udp.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\slipdev.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\tcp-socket.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\tcpip.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\udp-socket.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-debug.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-nameserver.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-split.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-udp-packet.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uiplib.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\roll-tm.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\smrf.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-mcast6-stats.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-mcast6-route.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-ds6-nbr.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\sicslowpan.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-ds6-route.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-ds6.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-icmp6.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-nd6.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip6.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\anti-replay.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ccm-star-packetbuf.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\nullsec.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\csma.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\frame802154.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\frame802154e-ie.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\framer-802154.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\framer-nullmac.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\mac-sequence.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\mac.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\nordc.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\nullmac.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\nullrdc-noframer.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\nullrdc.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\phase.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-dag-root.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-dag.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-ext-header.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-icmp6.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-nbr-policy.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\radio-sensor.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-ns.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-of0.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-timers.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\link-stats.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\linkaddr.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\nbr-table.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\netstack.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\packetbuf.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\queuebuf.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\arg.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\autostart.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\compower.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ctimer.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\energest.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\etimer.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\mt.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\process.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\procinit.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rtimer.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stimer.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\timer.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\button-sensor.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\leds-arch.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\clock.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\er-coap-observe-client.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\console.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\contiki-spirit1-main.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\node-id.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rtimer-arch.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\spirit1-arch.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\spirit1.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\watchdog.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\startup_stm32l152xe.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Aes.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Calibration.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Commands.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Csma.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_DirectRF.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_General.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Gpio.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Irq.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_LinearFifo.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Management.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_PktBasic.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_PktCommon.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_PktMbus.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_PktStack.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Qi.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Radio.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Timer.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Types.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_nucleo.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\radio_gpio.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\radio_shield_config.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\radio_spi.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\system_stm32l1xx.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_adc.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_adc_ex.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_flash.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_cortex.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_dma.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_pwr_ex.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_flash_ex.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_gpio.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_i2c.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rcc_ex.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_pwr.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rtc_ex.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rcc.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_tim.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rtc.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_spi.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_tim_ex.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_uart.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\cube_hal_l1.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_usart.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\client.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_msp.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_it.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\er-coap-block1.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\er-coap-engine.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\er-coap-res-well-known-core.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-ds6.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\er-coap-observe.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\er-coap-separate.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\er-coap-transactions.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ipso-button.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\er-coap.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ipso-digital-output.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ipso-objects.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ipso-leds-control.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\lwm2m-device.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\lwm2m-engine.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\lwm2m-json.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\lwm2m-object.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\lwm2m-plain-text.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\lwm2m-security.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\lwm2m-server.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\oma-tlv-reader.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\oma-tlv-writer.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\oma-tlv.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rest-engine.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\leds.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\nullradio.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\aes-128.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\assert.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ccm-star.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\crc16.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\gcr.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ifft.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\list.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\me.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\me_tabs.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\memb.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\mmem.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\petsciiconv.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\print-stats.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\random.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ringbuf.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ringbufindex.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\sensors.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\settings.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\trickle-timer.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\dhcpc.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ip64-addr.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\psock.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\resolv.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\simple-udp.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\slipdev.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\tcp-socket.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\tcpip.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\udp-socket.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-debug.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-nameserver.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-packetqueue.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-split.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-udp-packet.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uiplib.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\sicslowpan.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-ds6-nbr.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-ds6-route.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-icmp6.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-nd6.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip6.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\anti-replay.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ccm-star-packetbuf.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\nullsec.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\csma.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\frame802154.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\frame802154e-ie.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\framer-802154.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\framer-nullmac.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\mac-sequence.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\mac.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\nordc.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\nullmac.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\nullrdc-noframer.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\nullrdc.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\phase.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-dag-root.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-dag.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-ext-header.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-icmp6.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-mrhof.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-nbr-policy.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-ns.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-of0.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-timers.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\link-stats.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\linkaddr.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\nbr-table.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\netstack.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\packetbuf.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\queuebuf.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\arg.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\autostart.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\compower.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\ctimer.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\energest.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\etimer.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\mt.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\process.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\procinit.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rtimer.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stimer.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\button-sensor.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\leds-arch.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\radio-sensor.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\console.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\clock.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\contiki-spirit1-main.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\node-id.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rtimer-arch.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\spirit1-arch.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\spirit1.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\watchdog.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\Project.pbd</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Exe\ipso-nosensors_l152.bin</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Aes.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\MCU_Interface.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Regs.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Management.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Commands.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Calibration.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_PktMbus.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_PktStack.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Irq.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Qi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_PktBasic.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Radio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Gpio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_General.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_PktCommon.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_DirectRF.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_LinearFifo.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Inc\SPIRIT_Csma.h</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_spi_ex.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_spi_ex.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dsi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\er-coap\er-coap-observe-client.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_eth.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ramfunc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_fmpi2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_fmpi2c_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_hash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_hash_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_hcd.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_i2s.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_i2s_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_irda.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_iwdg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_lptim.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_ltdc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_ltdc_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_nand.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_nor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pccard.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pcd.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pcd_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_qspi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rng.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rtc_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_sai.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_sai_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_sd.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_sdram.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_smartcard.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spdifrx.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_sram.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_usart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_wwdg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_ll_fmc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_ll_fsmc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_ll_sdmmc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_ll_usb.c</file>
+      <file>$PROJ_DIR$\startup_stm32l152xe.s</file>
+      <file>$PROJ_DIR$\..\..\Src\client.c</file>
+      <file>$PROJ_DIR$\..\..\Src\cube_hal_l1.c</file>
+      <file>$PROJ_DIR$\..\..\Src\main.c</file>
+      <file>$PROJ_DIR$\..\..\Src\stm32l1xx_hal_msp.c</file>
+      <file>$PROJ_DIR$\..\..\Src\stm32l1xx_it.c</file>
+      <file>$PROJ_DIR$\..\..\Src\syscalls.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\er-coap\er-coap-block1.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\er-coap\er-coap-engine.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\er-coap\er-coap-observe.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\multicast\roll-tm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\er-coap\er-coap-res-well-known-core.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\er-coap\er-coap-separate.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\er-coap\er-coap-transactions.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\er-coap\er-coap.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\ipso-objects\ipso-button.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\ipso-objects\ipso-digital-output.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\ipso-objects\ipso-leds-control.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\ipso-objects\ipso-objects.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\lwm2m-device.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\lwm2m-engine.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\lwm2m-json.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\lwm2m-object.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\lwm2m-plain-text.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\lwm2m-security.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\lwm2m-server.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\oma-tlv-reader.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\oma-tlv-writer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\oma-tlv.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\rest-engine\rest-engine.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\dev\leds.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\dev\nullradio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\aes-128.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\assert.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\ccm-star.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\crc16.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\gcr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\ifft.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\list.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\me.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\me_tabs.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\memb.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\mmem.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\petsciiconv.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\print-stats.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\random.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\ringbuf.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\ringbufindex.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\sensors.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\settings.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\trickle-timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\dhcpc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\ip64-addr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\psock.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\resolv.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\simple-udp.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\slipdev.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\tcp-socket.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\tcpip.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\udp-socket.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\uip-debug.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\uip-nameserver.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\uip-packetqueue.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\uip-split.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\uip-udp-packet.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\uiplib.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\multicast\smrf.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\multicast\uip-mcast6-route.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\multicast\uip-mcast6-stats.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\sicslowpan.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\uip-ds6-nbr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\uip-ds6-route.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\uip-ds6.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\uip-icmp6.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\uip-nd6.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\uip6.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\llsec\anti-replay.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\llsec\ccm-star-packetbuf.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\llsec\nullsec.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\csma.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\frame802154.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\frame802154e-ie.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\framer-802154.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\framer-nullmac.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\mac-sequence.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\mac.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\nordc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\nullmac.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\nullrdc-noframer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\nullrdc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\phase.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-dag-root.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-dag.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-ext-header.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-icmp6.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-mrhof.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-nbr-policy.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-ns.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-of0.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-timers.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\link-stats.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\linkaddr.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\nbr-table.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\netstack.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\packetbuf.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\queuebuf.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\arg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\autostart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\compower.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\ctimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\energest.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\etimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\mt.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\process.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\procinit.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\rtimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\stimer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\timer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\dev\button-sensor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\dev\leds-arch.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\dev\radio-sensor.c</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_PktStack.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\Src\clock.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\Src\console.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\Src\contiki-spirit1-main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\Src\node-id.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\Src\rtimer-arch.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\Src\spirit1-arch.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\Src\spirit1.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\Src\watchdog.c</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Irq.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Timer.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Commands.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Calibration.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Radio.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Csma.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\rpl-mrhof.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Qi.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Aes.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\smrf.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\roll-tm.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-mcast6-route.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_cortex.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rcc.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Exe\ipso-nosensors_l152.out</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_flash.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_i2c.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_pwr_ex.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rcc_ex.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_pwr.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_gpio.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_tim.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_flash_ex.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_spi.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\uip-mcast6-stats.pbi</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_dma.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rtc.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_adc.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rtc_ex.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\radio_spi.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_adc_ex.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Types.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\client.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\er-coap-observe-client.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_nucleo.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\radio_gpio.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\radio_shield_config.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_General.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_usart.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_uart.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_tim_ex.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\main.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\system_stm32l1xx.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_PktCommon.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_PktMbus.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_PktBasic.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_Management.o</file>
+      <file>$PROJ_DIR$\STM32L152RE_Nucleo\Obj\SPIRIT_LinearFifo.o</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 569</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Calibration.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 558</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 349 342 346 344 345 343 341 340 339 279 354 347 99 348 350</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Aes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 563</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 342 349 346 344 345 343 341 340 339 279 338 347 99 348 350</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Commands.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 557</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 342 343 349 346 344 345 341 340 339 279 353 347 99 348 350</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 196</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 580</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Csma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 560</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 349 99 340 350 343 341 344 348 345 347 342 339 346 279 370</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_DirectRF.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 343 342 349 346 344 345 341 340 339 279 368 347 99 348 350</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_General.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 593</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 349 344 279 343 341 340 339 346 345 347 342 365 99 348 350</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 174</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 341 340 344 279 343 349 339 346 345 347 342 363 99 348 350</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Irq.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 555</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_LinearFifo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 176</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 603</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 343 342 349 346 344 345 341 340 339 279 369 347 99 348 350</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Management.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 177</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 602</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 355 370 348 349 358 345 343 354 365 369 359 352 341 344 340 366 361 338 353 368 363 367 360 357 362 99 350 347 342 339 346 279</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_PktBasic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 178</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 601</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_PktCommon.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 599</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 339 340 344 279 349 347 342 346 345 343 341 99 348 350 366</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_PktMbus.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 600</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 338 343 349 348 361 367 345 366 341 344 340 368 357 362 99 350 353 363 360 355 347 342 339 346 279 354 370 365 358 369 359 352</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_PktStack.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 546</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 348 341 344 340 343 349 99 350 345 366 347 342 339 346 279 357</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Qi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 562</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 347 344 279 343 339 346 345 349 341 340 342 359 99 348 350</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Radio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 559</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 355 364 348 349 344 370 343 351 361 341 340 358 345 366 99 350 354 365 369 359 352 362 347 342 339 346 279 338 353 368 363 367 360 357 356</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 184</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 556</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 342 355 370 343 345 349 347 346 344 358 362 340 339 279 354 365 369 359 352 367 341 99 348 350 361 338 353 368 363 360 357 366</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\Components\spirit1\SPIRIT1_Library\Src\SPIRIT_Types.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 587</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 339 340 344 347 342 279 345 341 349 346 343 99 348 350</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\STM32L1xx_Nucleo\stm32l1xx_nucleo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 186</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 590</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\X-NUCLEO-IDS01Ax\Src\radio_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 187</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 591</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\X-NUCLEO-IDS01Ax\Src\radio_shield_config.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 188</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 592</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSP\X-NUCLEO-IDS01Ax\Src\radio_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 189</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 584</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L1xx\Source\Templates\system_stm32l1xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 190</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 598</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 191</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 586</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 192</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 582</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_adc_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 193</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 585</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_cortex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 567</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\er-coap\er-coap-observe-client.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 589</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 194</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 570</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 577</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 199</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 575</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 200</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 571</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 202</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 574</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_pwr_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 572</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 204</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 568</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rcc_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 201</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 573</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 206</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 581</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_rtc_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 203</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 583</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 207</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 578</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_spi_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 372</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 371</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 205</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 576</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_tim_ex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 208</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 596</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 595</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 212</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 594</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\startup_stm32l152xe.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 167</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Src\client.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 588</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Src\cube_hal_l1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 211</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 597</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Src\stm32l1xx_hal_msp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Src\stm32l1xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 215</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\er-coap\er-coap-block1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 216</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\er-coap\er-coap-engine.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 217</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\er-coap\er-coap-observe.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 220</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\multicast\roll-tm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 565</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\er-coap\er-coap-res-well-known-core.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 218</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\er-coap\er-coap-separate.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\er-coap\er-coap-transactions.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 222</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\er-coap\er-coap.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 224</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\ipso-objects\ipso-button.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 223</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\ipso-objects\ipso-digital-output.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 225</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\ipso-objects\ipso-leds-control.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 227</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\ipso-objects\ipso-objects.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 226</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\lwm2m-device.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 228</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\lwm2m-engine.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 229</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\lwm2m-json.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 230</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\lwm2m-object.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\lwm2m-plain-text.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 232</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\lwm2m-security.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 233</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\lwm2m-server.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 234</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\oma-tlv-reader.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 235</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\oma-tlv-writer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 236</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\oma-lwm2m\oma-tlv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 237</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\apps\rest-engine\rest-engine.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 238</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\dev\leds.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 239</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\dev\nullradio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 240</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\aes-128.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 241</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 242</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\ccm-star.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 243</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\crc16.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 244</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\gcr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 245</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\ifft.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 246</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\list.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 247</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\me.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 248</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\me_tabs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 249</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\memb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 250</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\mmem.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 251</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\petsciiconv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\print-stats.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 253</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\random.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 254</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\ringbuf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 255</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\ringbufindex.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 256</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\sensors.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 257</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\settings.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 258</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\lib\trickle-timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 259</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\dhcpc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 260</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\ip64-addr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 261</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\psock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 262</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\resolv.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 263</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\simple-udp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 264</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\slipdev.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 265</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\tcp-socket.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 266</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\tcpip.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 267</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\udp-socket.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 268</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\uip-debug.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 269</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 96</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\uip-nameserver.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 270</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\uip-packetqueue.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 271</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\uip-split.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 272</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\uip-udp-packet.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 273</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ip\uiplib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 274</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\multicast\smrf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 564</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\multicast\uip-mcast6-route.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 566</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\multicast\uip-mcast6-stats.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 579</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\sicslowpan.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 275</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\uip-ds6-nbr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 276</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\uip-ds6-route.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 277</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\uip-ds6.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 219</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\uip-icmp6.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 278</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\uip-nd6.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 280</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\ipv6\uip6.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 281</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\llsec\anti-replay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 282</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\llsec\ccm-star-packetbuf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 283</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\llsec\nullsec.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 284</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\csma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 285</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\frame802154.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 286</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\frame802154e-ie.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 287</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\framer-802154.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\framer-nullmac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 289</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\mac-sequence.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 290</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\mac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 291</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\nordc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 292</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\nullmac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 293</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\nullrdc-noframer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 294</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\nullrdc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 295</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 126</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\mac\phase.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 296</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 127</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-dag-root.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 297</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-dag.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 298</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 129</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-ext-header.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 299</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 130</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-icmp6.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 300</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 131</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-mrhof.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 301</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 561</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-nbr-policy.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 302</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 132</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-ns.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 303</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-of0.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 304</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl-timers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 305</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\rpl\rpl.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 306</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 137</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\link-stats.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 307</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\linkaddr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 308</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\nbr-table.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 309</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\netstack.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 310</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\packetbuf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 311</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 142</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\net\queuebuf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 312</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\arg.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 313</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 144</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\autostart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 314</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\compower.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 315</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\ctimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 316</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\energest.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 317</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 148</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\etimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 318</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\mt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 319</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\process.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 320</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\procinit.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 321</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\rtimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 322</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\stimer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 323</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\Contiki\core\sys\timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 324</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 155</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\dev\button-sensor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 325</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 156</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\dev\leds-arch.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 326</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 157</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\dev\radio-sensor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 327</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\Src\clock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 329</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 158</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\Src\console.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 328</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 160</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\Src\contiki-spirit1-main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 330</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 161</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\Src\node-id.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 331</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\Src\rtimer-arch.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 332</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 163</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\Src\spirit1-arch.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 333</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 164</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\Src\spirit1.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 334</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 165</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\Contiki_STM32_Library\Src\watchdog.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 335</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 166</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\STM32L152RE_Nucleo\Exe\ipso-nosensors_l152.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 337</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+</project>
+
+
